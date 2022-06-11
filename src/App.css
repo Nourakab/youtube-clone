@@ -1,0 +1,5 @@
+.app__page{
+    /* in a div by default, it'll display block one on top of eachother, I use flex 
+    to be able to display them next to eachother instead */
+    display: flex;
+}
