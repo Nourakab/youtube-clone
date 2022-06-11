@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
@@ -8,8 +8,10 @@ import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNone
 import MicOutlinedIcon from "@mui/icons-material/MicOutlined";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
+import { Link } from "react-router-dom";
 
 function Header() {
+  const [inputSearch, setInputSearch] = useState("");
   return (
     <div className="header">
       <div className="header__left">
@@ -21,8 +23,17 @@ function Header() {
         />
       </div>
       <div className="header__input">
-        <input placeholder="Search" type="text" />
-        <SearchOutlinedIcon className="header__inputButton" />
+        <input
+          onChange={(e) => setInputSearch(e.target.value)}
+          value={inputSearch}
+          placeholder="Search"
+          type="text"
+        />
+        <Link to={`/search/${inputSearch}`}>
+          {" "}
+          <SearchOutlinedIcon className="header__inputButton" />
+        </Link>
+
         <MicOutlinedIcon className="header__Mic" />
       </div>
       <div className="header__right">

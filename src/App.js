@@ -3,17 +3,31 @@ import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import RecommendedVideos from "./RecommendedVideos";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     //Follow BEM class naming convention
     <div className="App">
-      {/*<h1>Let's build a YouTube clone</h1>*/}
-      <Header />
-      <div className="app__page">
-        <Sidebar />
-        <RecommendedVideos />
-      </div>
+      {/* My Router here will determine which url loads which component*/}
+      <Router>
+        <Header />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div className="app__page">
+                <Sidebar />
+                <RecommendedVideos />
+              </div>
+            }
+          ></Route>
+          <Route
+            path="/search/:searchTerm"
+            element={<h1>Search page</h1>}
+          ></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
