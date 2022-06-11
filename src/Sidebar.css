@@ -1,6 +1,6 @@
 .sidebar{
     /*I want that inside of that container takes a weight of 20% */
-    flex:0.2;
+    flex:20%;
 }
 
 .sidebar >hr{

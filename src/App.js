@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       {/*<h1>Let's build a YouTube clone</h1>*/}
       <Header />
-      <div className="app_page">
+      <div className="app__page">
         <Sidebar />
         <RecommendedVideos />
       </div>
