@@ -5,7 +5,6 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import VideoCallOutlinedIcon from "@mui/icons-material/VideoCallOutlined";
 import AppsOutlinedIcon from "@mui/icons-material/AppsOutlined";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
-import MicOutlinedIcon from "@mui/icons-material/MicOutlined";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import { Link } from "react-router-dom";
@@ -36,15 +35,13 @@ function Header() {
           {" "}
           <SearchOutlinedIcon className="header__inputButton" />
         </Link>
-
-        <MicOutlinedIcon className="header__Mic" />
       </div>
       <div className="header__right">
         <VideoCallOutlinedIcon className="header__icon" />
         <AppsOutlinedIcon className="header__icon" />
         <NotificationsNoneOutlinedIcon className="header__icon" />
         <Stack direction="row" spacing={2}>
-          <Avatar alt="Nounou" src="./Nounou.jpg" />
+          <Avatar alt="Nounou" src="../images/Nounou.jpg" />
         </Stack>
       </div>
     </div>

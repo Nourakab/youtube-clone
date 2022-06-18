@@ -11,71 +11,71 @@ function RecommendedVideos() {
           title="How to become a millionaire"
           views="2.3M views"
           timestamp="3 days ago"
-          channelImage="./Nounou.jpg"
+          channelImage="../images/Nounou.jpg"
           channel="Nounou"
-          image="./Nounou.jpg"
+          image="../images/Nounou.jpg"
         />
         <VideoCard
           title="How to become a millionaire"
           views="2.3M views"
           timestamp="3 days ago"
-          channelImage="./Nounou.jpg"
+          channelImage="../images/Nounou.jpg"
           channel="Nounou"
-          image="./Nounou.jpg"
-        />
-
-        <VideoCard
-          title="How to become a millionaire"
-          views="2.3M views"
-          timestamp="3 days ago"
-          channelImage="./Nounou.jpg"
-          channel="Nounou"
-          image="./Nounou.jpg"
+          image="../images/Nounou.jpg"
         />
 
         <VideoCard
           title="How to become a millionaire"
           views="2.3M views"
           timestamp="3 days ago"
-          channelImage="./Nounou.jpg"
+          channelImage="../images/Nounou.jpg"
           channel="Nounou"
-          image="./Nounou.jpg"
+          image="../images/Nounou.jpg"
         />
 
         <VideoCard
           title="How to become a millionaire"
           views="2.3M views"
           timestamp="3 days ago"
-          channelImage="./Nounou.jpg"
+          channelImage="../images/Nounou.jpg"
           channel="Nounou"
-          image="./Nounou.jpg"
+          image="../images/Nounou.jpg"
         />
 
         <VideoCard
           title="How to become a millionaire"
           views="2.3M views"
           timestamp="3 days ago"
-          channelImage="./Nounou.jpg"
+          channelImage="../images/Nounou.jpg"
           channel="Nounou"
-          image="./Nounou.jpg"
+          image="../images/Nounou.jpg"
         />
 
         <VideoCard
           title="How to become a millionaire"
           views="2.3M views"
           timestamp="3 days ago"
-          channelImage="./Nounou.jpg"
+          channelImage="../images/Nounou.jpg"
           channel="Nounou"
-          image="./Nounou.jpg"
+          image="../images/Nounou.jpg"
         />
 
         <VideoCard
           title="How to become a millionaire"
           views="2.3M views"
           timestamp="3 days ago"
-          channelImage="./Nounou.jpg"
+          channelImage="../images/Nounou.jpg"
           channel="Nounou"
-          image="./Nounou.jpg"
+          image="../images/Nounou.jpg"
+        />
+
+        <VideoCard
+          title="How to become a millionaire"
+          views="2.3M views"
+          timestamp="3 days ago"
+          channelImage="../images/Nounou.jpg"
+          channel="Nounou"
+          image="../images/Nounou.jpg"
         />
       </div>
     </div>

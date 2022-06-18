@@ -3,6 +3,7 @@ import "./Sidebar.css";
 import SidebarRow from "./SidebarRow";
 import HomeIcon from "@mui/icons-material/Home";
 import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
+import WhatshotOutlinedIcon from "@mui/icons-material/WhatshotOutlined";
 import SubscriptionsOutlinedIcon from "@mui/icons-material/SubscriptionsOutlined";
 import VideoLibraryOutlinedIcon from "@mui/icons-material/VideoLibraryOutlined";
 import HistoryOutlinedIcon from "@mui/icons-material/HistoryOutlined";
@@ -16,7 +17,7 @@ function Sidebar() {
     <div className="sidebar">
       <SidebarRow selected Icon={<HomeIcon />} title="Home" />
       <SidebarRow Icon={<ExploreOutlinedIcon />} title="Explore" />
-      <SidebarRow title="Shorts" />
+      <SidebarRow Icon={<WhatshotOutlinedIcon />} title="Trending" />
       <SidebarRow Icon={<SubscriptionsOutlinedIcon />} title="Subscriptions" />
       <hr />
       <SidebarRow Icon={<VideoLibraryOutlinedIcon />} title="Library" />

@@ -13,7 +13,11 @@ function ChannelRow({
 }) {
   return (
     <div className="channelRow">
-      <Avatar className="channelRow__logo" alt={channel} src={image} />
+      <Avatar
+        className="channelRow__logo"
+        alt={channel}
+        src={`../images/${image}`}
+      />
       <div className="channelRow__text">
         <h4>
           {channel}
