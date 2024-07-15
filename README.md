@@ -1,3 +1,7 @@
+## Youtube Clone
+
+This project is a basic clone of Youtube, featuring a landing page similar to the real one with a search toolbar.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
